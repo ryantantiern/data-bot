@@ -2,7 +2,7 @@
 Conversational AI system for interacting with data using natural language (English).
 
 # Training data format
-Rasa NLU requires data to be in a a well structured format defined at [Rasa](http://rasa-nlu.readthedocs.io/en/latest/dataformat.html#training-data-format). However, it can be very tedious to type when creating the data. Included is **converter.py** that converts an easier-to-type data format into rasa training format.It that takes 2 optional arguments:  
+Rasa NLU requires data to be in a a well structured format defined at [Rasa](http://rasa-nlu.readthedocs.io/en/latest/dataformat.html#training-data-format). However, it can be very tedious to type when creating the data. Included is **converter.py** that converts an easier-to-type data format into rasa training format. It that takes 2 optional arguments:  
 * -i input file 
 * -o output file  
 
