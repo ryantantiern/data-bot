@@ -3,8 +3,8 @@ Conversational AI system for interacting with data using natural language (Engli
 
 # Training data format
 Rasa NLU requires data to be in a a well structured format defined at [Rasa](http://rasa-nlu.readthedocs.io/en/latest/dataformat.html#training-data-format). However, it can be very tedious to type when creating the data. Included is a `converter.py` that converts an easier-to-type data format into rasa training format.It that takes 2 optional arguments:  
-	* -i input file  
-	* -o output file  
+* -i input file 
+* -o output file
 If `input` or `output` files aren't specified, the default files are `'raw_data'` and `'data/data-1.json'` respectively. The format is as follows:  
 1. The first line in the file denotes the number of intent
 2. The next section describes each intent block:  
