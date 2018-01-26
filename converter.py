@@ -1,5 +1,6 @@
 from pprint import pprint
-
+from json import dump
+import argparse
 def start_end(text, word):
 	ltext = len(text)
 	lword = len(word)
@@ -19,8 +20,14 @@ def start_end(text, word):
 	return (0,0)
 
 
-
-def convert(filename):
+def convert(filename, output):
+	rasa = {
+		'rasa_nlu_data' : {
+			'common_examples' : [],
+			'regex_features' : [],
+			'entity_synonyms' : []
+		}
+	}
 	data = []
 	with open(filename, 'r') as f:
 		ndata = int(f.readline().rstrip())
@@ -41,8 +48,15 @@ def convert(filename):
 				}
 				entry['entities'].append(entity)
 			data.append(entry)
-
-	pprint(data)
+	rasa['rasa_nlu_data']['common_examples'] = data
+	with open(output, 'w') as f:
+		dump(rasa, f)
 
 if __name__ == "__main__":
-	convert("raw_data")
+	parser = argparse.ArgumentParser()
+	parser.add_argument("-i", "--input", help="Data file to parse from")
+	parser.add_argument("-o", "--output", help="Output file to write to. hint: this will be your data.json")
+	args = parser.parse_args()
+	filename = args.input if args.input is not None else "raw_data"
+	output = args.output if args.output is not None else "data/data-1.json"
+	convert(filename, output)
