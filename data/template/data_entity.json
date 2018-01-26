@@ -1,0 +1,12 @@
+{
+	"text" : "",
+	"intent" : "",
+	"entities" : [
+		{
+			"start" : INT,
+			"end" : INT,
+			"value" : "",
+			"entity" : ""
+		}
+	]
+}

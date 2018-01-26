@@ -1,0 +1,18 @@
+{
+	"pipeline" : [
+		"nlp_spacy",
+		"tokenizer_spacy",
+		"intent_entity_featurizer_regex",
+		"intent_featurizer_spacy",
+		"ner_crf",
+		"ner_synonyms",
+		"intent_classifier_sklearn"
+	],
+	"path" : "./models",
+	"project" : "data-bot",
+	"language" : "en",
+	"num_threads": 1,
+	"max_training_processes": 1,
+	"data" : "./data/data.json",
+	"log_file":"./log.txt"
+}

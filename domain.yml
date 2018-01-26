@@ -1,0 +1,48 @@
+slots:
+  tags:
+      type: list
+  limit:
+      type: text
+  objective:
+      type: categorical
+      values:
+        - source_data
+
+
+entities:
+  - tags
+  - limit
+
+intents:
+  - greet_start
+  - affirm
+  - deny
+  - source_data
+  - provide_tags
+  - alter_tags
+
+actions:
+  - utter_greet_start
+  - utter_greet_end
+  - utter_offer_assistance
+  - utter_reoffer_assistance
+  - utter_check_correct_intent
+  - bot.actions.SourceData
+  - bot.actions.CheckUnderstanding
+
+templates:
+  utter_greet:
+    - "Hi, I'm DataBot. I can assist you with interacting with your data. How can I help you?"
+  utter_prompt_tags:
+    - "What are the tags you want to search on?"
+  utter_offer_assistance:
+    - "What can I do for you?"
+  utter_bye:
+    - "Thanks for using DataBot."
+  utter_reoffer_assistance:
+    - "How else can I help you?"
+  utter_back_on_track:
+    - "Im only good at helping you query data. How can I help you?"
+
+
+
