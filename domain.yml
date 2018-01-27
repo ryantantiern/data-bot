@@ -22,11 +22,11 @@ intents:
   - alter_tags
 
 actions:
-  - utter_greet_start
-  - utter_greet_end
+  - utter_greet
+  - utter_prompt_tags
   - utter_offer_assistance
+  - utter_bye
   - utter_reoffer_assistance
-  - utter_check_correct_intent
   - bot.actions.SourceData
   - bot.actions.CheckUnderstanding
 
@@ -41,8 +41,7 @@ templates:
     - "Thanks for using DataBot."
   utter_reoffer_assistance:
     - "How else can I help you?"
-  utter_back_on_track:
-    - "Im only good at helping you query data. How can I help you?"
+
 
 
 
