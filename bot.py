@@ -17,7 +17,7 @@ from rasa_core.interpreter import RasaNLUInterpreter
 
 DOMAIN_FILE = "domain.yml"
 MODEL_PATH = "models/dialogue"
-DATA = "data/data.json"
+DATA = "data/data-1.json"
 STORIES = "data/stories.md"
 CONFIG_PATH = "nlu_model_config.json"
 

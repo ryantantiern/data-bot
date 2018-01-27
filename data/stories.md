@@ -4,7 +4,7 @@
 > greet
 
 ## DENY REOFFER ASSISTANCE
-> reoffer_asssistance
+> reoffer_assistance
 * _deny
 	-	utter_bye
 

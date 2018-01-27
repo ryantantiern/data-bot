@@ -31,7 +31,7 @@ def convert(filename, output):
 	data = []
 	with open(filename, 'r') as f:
 		line = f.readline()
-		while line:
+		while line:		
 			line = line.lstrip('*').rstrip().split(sep='-')
 			entry = {}
 			entry['text'] = line[0]
@@ -63,7 +63,6 @@ def convert(filename, output):
 	rasa['rasa_nlu_data']['common_examples'] = data
 	with open(output, 'w') as f:
 		dump(rasa, f)
-	pprint(rasa)
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
