@@ -3,8 +3,8 @@
 	"intent" : "",
 	"entities" : [
 		{
-			"start" : INT,
-			"end" : INT,
+			"start" : ,
+			"end" : ,
 			"value" : "",
 			"entity" : ""
 		}

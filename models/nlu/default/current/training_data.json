@@ -2,7 +2,7 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [
           {
             "start": 20,
@@ -20,7 +20,7 @@
         "text": "find me data on the british economy"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [
           {
             "start": 22,
@@ -38,7 +38,7 @@
         "text": "I want data regarding urban planning in London"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [
           {
             "start": 18,
@@ -62,7 +62,7 @@
         "text": "search data about political discord limited to 6 results"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [
           {
             "start": 32,
@@ -86,7 +86,7 @@
         "text": "get information associated with population growth and food supply in underdeveloped countires"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [
           {
             "start": 20,
@@ -104,7 +104,7 @@
         "text": "retrieve data about computer science, limit to 3 results"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [
           {
             "start": 26,
@@ -122,7 +122,85 @@
         "text": "need statistics about the urban domain limit results to 10"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "entity": "tags",
+            "value": "construction"
+          },
+          {
+            "start": 37,
+            "end": 47,
+            "entity": "tags",
+            "value": "congestion"
+          }
+        ],
+        "text": "find me data on the construction and congestion"
+      },
+      {
+        "intent": "sourceData",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "entity": "tags",
+            "value": "tube"
+          },
+          {
+            "start": 28,
+            "end": 40,
+            "entity": "tags",
+            "value": "construction"
+          },
+          {
+            "start": 42,
+            "end": 52,
+            "entity": "tags",
+            "value": "congestion"
+          },
+          {
+            "start": 57,
+            "end": 63,
+            "entity": "tags",
+            "value": "census"
+          },
+          {
+            "start": 72,
+            "end": 78,
+            "entity": "tags",
+            "value": "London"
+          }
+        ],
+        "text": "I want data regarding tube, construction, congestion and census data in London"
+      },
+      {
+        "intent": "sourceData",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "entity": "tags",
+            "value": "political"
+          },
+          {
+            "start": 39,
+            "end": 45,
+            "entity": "tags",
+            "value": "Brexit"
+          },
+          {
+            "start": 57,
+            "end": 58,
+            "entity": "limit",
+            "value": "6"
+          }
+        ],
+        "text": "search data about political trends and Brexit limited to 6 results"
+      },
+      {
+        "intent": "sourceData",
         "entities": [
           {
             "start": 31,
@@ -146,7 +224,7 @@
         "text": "fetch top 4 figures concerning chinese news"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [
           {
             "start": 23,
@@ -164,7 +242,7 @@
         "text": "identify 5 facts about ucl"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [
           {
             "start": 40,
@@ -176,62 +254,62 @@
         "text": "I'm looking for details with regards to astronomy"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "I'm looking for data"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "find data for me"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "i want to search for information"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "i'm searching for data sources"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "get me data"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "can you get me data sources"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "retrieve some relevant data sources for me"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "fetch data"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "source data"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "search for data"
       },
       {
-        "intent": "source_data",
+        "intent": "sourceData",
         "entities": [],
         "text": "bring me some data"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 0,
@@ -249,7 +327,7 @@
         "text": "british economy"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 0,
@@ -261,7 +339,7 @@
         "text": "urban planning"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 0,
@@ -273,7 +351,7 @@
         "text": "farming"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 0,
@@ -297,7 +375,7 @@
         "text": "London, built environment, transportation"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 0,
@@ -321,7 +399,7 @@
         "text": "road networks, housing, transport"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 0,
@@ -333,7 +411,7 @@
         "text": "university college london"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 0,
@@ -357,7 +435,7 @@
         "text": "university college london, kings college london, imperial college london"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 0,
@@ -381,7 +459,7 @@
         "text": "ucl kcl icl"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 9,
@@ -399,7 +477,7 @@
         "text": "tags are rivers and plants"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 17,
@@ -417,7 +495,7 @@
         "text": "search terms are urban planning and population growth"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 6,
@@ -447,7 +525,7 @@
         "text": "term: construction congestion mobility housing"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 0,
@@ -459,7 +537,7 @@
         "text": "Manchester"
       },
       {
-        "intent": "provide_tags",
+        "intent": "sourceDataProvideTags",
         "entities": [
           {
             "start": 0,
@@ -471,147 +549,147 @@
         "text": "Scotland"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "hey"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "hi"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "hello"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "yo"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "how's it going"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "what's up"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "good morning"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "good evening"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "howdy"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "hey there"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "Hello"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "Hi"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "Greetings"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "greetings"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "hi ya"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "shalom"
       },
       {
-        "intent": "greet_start",
+        "intent": "greet",
         "entities": [],
         "text": "how are you"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "bye"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "goodbye"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "stop"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "end"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "farewell"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "Bye bye"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "have a good one"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "thanks"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "thank you"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "cheers"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "bless you"
       },
       {
-        "intent": "greet_end",
+        "intent": "bye",
         "entities": [],
         "text": "merci"
       },
@@ -766,52 +844,34 @@
         "text": "that's enough"
       },
       {
-        "intent": "alter_tags",
-        "entities": [
-          {
-            "start": 22,
-            "end": 36,
-            "entity": "tags",
-            "value": "urban research"
-          }
-        ],
-        "text": "change search tags to urban research"
+        "intent": "requestHelp",
+        "entities": [],
+        "text": "what can you do"
       },
       {
-        "intent": "alter_tags",
-        "entities": [
-          {
-            "start": 11,
-            "end": 26,
-            "entity": "tags",
-            "value": "neural networks"
-          },
-          {
-            "start": 31,
-            "end": 44,
-            "entity": "tags",
-            "value": "deep learning"
-          }
-        ],
-        "text": "query with neural networks and deep learning instead"
+        "intent": "requestHelp",
+        "entities": [],
+        "text": "tell me about yourself"
       },
       {
-        "intent": "alter_tags",
-        "entities": [
-          {
-            "start": 4,
-            "end": 16,
-            "entity": "tags",
-            "value": "construction"
-          },
-          {
-            "start": 18,
-            "end": 24,
-            "entity": "tags",
-            "value": "London"
-          }
-        ],
-        "text": "use construction, London tags"
+        "intent": "requestHelp",
+        "entities": [],
+        "text": "how can you assist me?"
+      },
+      {
+        "intent": "requestHelp",
+        "entities": [],
+        "text": "HELP"
+      },
+      {
+        "intent": "requestHelp",
+        "entities": [],
+        "text": "help"
+      },
+      {
+        "intent": "requestHelp",
+        "entities": [],
+        "text": "display functionality"
       }
     ],
     "regex_features": [],

@@ -1,0 +1,64 @@
+action_factory: null
+action_names:
+- action_greet
+- action_goodbye
+- action_offer_help
+- action_source_data
+- action_help
+- action_check_understanding
+- action_reoffer_help
+- action_source_data_prompt_tags
+- action_reset_slots
+actions:
+- bot.actions.Greet
+- bot.actions.GoodBye
+- bot.actions.OfferHelp
+- bot.actions.SourceData
+- bot.actions.Help
+- bot.actions.CheckUnderstanding
+- bot.actions.ReofferHelp
+- bot.actions.SourceDataPromptTags
+- bot.actions.ResetSlots
+config:
+  store_entities_as_slots: true
+entities:
+- tags
+- limit
+intents:
+- greet
+- requestHelp
+- sourceData
+- sourceDataProvideTags
+- bye
+- affirm
+- deny
+- random
+slots:
+  limit:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  tags:
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+templates:
+  action_goodbye:
+  - text: Thanks for using DataBot. Goodbye!
+  - text: Thanks for using DataBot. See you soon.
+  action_greet:
+  - text: Hi, I'm DataBot!
+  - text: Hello there, I'm DataBot!
+  - text: I'm DataBot. Nice to make your acquaintance.
+  action_offer_help:
+  - text: What can I do for you?
+  - text: How can I be of assistance?
+  - text: What would you like me to do?
+  - text: What shall we do today?
+  action_reoffer_help:
+  - text: Is there anything else I can do for you?
+  - text: How else can I help you?
+  action_source_data_prompt_tags:
+  - text: Great! What data would you like?
+  - text: Excellent! What data are you searching for?
+  - text: Wonderful! What kind of data are you looking for?
+  - text: Sure, what are the search terms?
+topics: []

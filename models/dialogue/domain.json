@@ -1,0 +1,27 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_requestHelp",
+    "intent_sourceData",
+    "intent_sourceDataProvideTags",
+    "intent_bye",
+    "intent_affirm",
+    "intent_deny",
+    "intent_random",
+    "entity_tags",
+    "entity_limit",
+    "slot_limit_0",
+    "slot_tags_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_greet",
+    "prev_action_goodbye",
+    "prev_action_offer_help",
+    "prev_action_source_data",
+    "prev_action_help",
+    "prev_action_check_understanding",
+    "prev_action_reoffer_help",
+    "prev_action_source_data_prompt_tags",
+    "prev_action_reset_slots"
+  ]
+}

@@ -1,112 +1,128 @@
-*find me data on the british economy-source_data-2
+*find me data on the british economy-sourceData-2
 tags-British 
 tags-economy
-*I want data regarding urban planning in London-source_data-2
+*I want data regarding urban planning in London-sourceData-2
 tags-urban planning
 tags-London
-*search data about political discord limited to 6 results-source_data-3
+*search data about political discord limited to 6 results-sourceData-3
 tags-political
 tags-discord
 limit-6
-*get information associated with population growth and food supply in underdeveloped countires-source_data-3
+*get information associated with population growth and food supply in underdeveloped countires-sourceData-3
 tags-population growth
 tags-food supply
 tags-underdeveloped
-*retrieve data about computer science, limit to 3 results-source_data-2
+*retrieve data about computer science, limit to 3 results-sourceData-2
 tags-computer science
 limit-3
-*need statistics about the urban domain limit results to 10-source_data-2
+*need statistics about the urban domain limit results to 10-sourceData-2
 tags-urban
 limit-10
-*fetch top 4 figures concerning chinese news-source_data-3
+*find me data on the construction and congestion-sourceData-2
+tags-construction 
+tags-congestion
+*I want data regarding tube, construction, congestion and census data in London-sourceData-5
+tags-tube
+tags-construction
+tags-congestion
+tags-census
+tags-London
+*search data about political trends and Brexit limited to 6 results-sourceData-3
+tags-political
+tags-Brexit
+limit-6
+*fetch top 4 figures concerning chinese news-sourceData-3
 tags-chinese
 tags-news
 limit-4
-*identify 5 facts about ucl-source_data-2
+*find data on London and urban planning-sourceData-2
+tags-London
+tags-urban planning
+*identify 5 facts about ucl-sourceData-2
 tags-ucl-University College London
 limit-5
-*I'm looking for details with regards to astronomy-source_data-1
+*I'm looking for details with regards to astronomy-sourceData-1
 tags-astronomy 
-*I'm looking for data-source_data-0
-*find data for me-source_data-0
-*i want to search for information-source_data-0
-*i'm searching for data sources-source_data-0
-*get me data-source_data-0
-*can you get me data sources-source_data-0
-*retrieve some relevant data sources for me-source_data-0
-*fetch data-source_data-0
-*source data-source_data-0
-*search for data-source_data-0
-*bring me some data-source_data-0
-*british economy-provide_tags-2
+*I'm looking for data-sourceData-0
+*find data for me-sourceData-0
+*i want to search for information-sourceData-0
+*i'm searching for data sources-sourceData-0
+*get me data-sourceData-0
+*can you get me data sources-sourceData-0
+*retrieve some relevant data sources for me-sourceData-0
+*fetch data-sourceData-0
+*source data-sourceData-0
+*search for data-sourceData-0
+*bring me some data-sourceData-0
+*british economy-sourceDataProvideTags-2
 tags-British
 tags-economy
-*urban planning-provide_tags-1
+*urban planning-sourceDataProvideTags-1
 tags-urban planning
-*farming-provide_tags-1
+*farming-sourceDataProvideTags-1
 tags-farming
-*London, built environment, transportation-provide_tags-3
+*London, built environment, transportation-sourceDataProvideTags-3
 tags-London
 tags-built environment
 tags-transportation
-*road networks, housing, transport-provide_tags-3
+*road networks, housing, transport-sourceDataProvideTags-3
 tags-road networks
 tags-housing
 tags-transport
-*university college london-provide_tags-1
+*university college london-sourceDataProvideTags-1
 tags-University College London
-*university college london, kings college london, imperial college london-provide_tags-3
+*university college london, kings college london, imperial college london-sourceDataProvideTags-3
 tags-University College London
 tags-Kings College London
 tags-Imperial College London
-*ucl kcl icl-provide_tags-3
+*ucl kcl icl-sourceDataProvideTags-3
 tags-ucl-University College London
 tags-kcl-Kings College London
 tags-icl-Imperial College London
-*tags are rivers and plants-provide_tags-2
+*tags are rivers and plants-sourceDataProvideTags-2
 tags-rivers
 tags-plants
-*search terms are urban planning and population growth-provide_tags-2
+*search terms are urban planning and population growth-sourceDataProvideTags-2
 tags-urban planning
 tags-population growth
-*term: construction congestion mobility housing-provide_tags-4
+*term: construction congestion mobility housing-sourceDataProvideTags-4
 tags-construction
 tags-congestion
 tags-mobility
 tags-housing
-*Manchester-provide_tags-1
+*Manchester-sourceDataProvideTags-1
 tags-Manchester
-*Scotland-provide_tags-1
+*Scotland-sourceDataProvideTags-1
 tags-Scotland
-*hey-greet_start-0
-*hi-greet_start-0
-*hello-greet_start-0
-*yo-greet_start-0
-*how's it going-greet_start-0
-*what's up-greet_start-0
-*good morning-greet_start-0
-*good evening-greet_start-0
-*howdy-greet_start-0
-*hey there-greet_start-0
-*Hello-greet_start-0
-*Hi-greet_start-0
-*Greetings-greet_start-0
-*greetings-greet_start-0
-*hi ya-greet_start-0
-*shalom-greet_start-0
-*how are you-greet_start-0
-*bye-greet_end-0
-*goodbye-greet_end-0
-*stop-greet_end-0
-*end-greet_end-0
-*farewell-greet_end-0
-*Bye bye-greet_end-0
-*have a good one-greet_end-0
-*thanks-greet_end-0
-*thank you-greet_end-0
-*cheers-greet_end-0
-*bless you-greet_end-0
-*merci-greet_end-0
+*hey-greet-0
+*hi-greet-0
+*hello-greet-0
+*yo-greet-0
+*how's it going-greet-0
+*what's up-greet-0
+*good morning-greet-0
+*good evening-greet-0
+*howdy-greet-0
+*hey there-greet-0
+*Hello-greet-0
+*Hi-greet-0
+*Greetings-greet-0
+*greetings-greet-0
+*hi ya-greet-0
+*shalom-greet-0
+*how are you-greet-0
+*bye-bye-0
+*goodbye-bye-0
+*stop-bye-0
+*end-bye-0
+*farewell-bye-0
+*Bye bye-bye-0
+*have a good one-bye-0
+*thanks-bye-0
+*thank you-bye-0
+*cheers-bye-0
+*bless you-bye-0
+*merci-bye-0
 *yes-affirm-0
 *yep-affirm-0
 *yeah-affirm-0
@@ -137,11 +153,9 @@ tags-Scotland
 *most certainly not-deny-0
 *no way-deny-0
 *that's enough-deny-0
-*change search tags to urban research-alter_tags-1
-tags-urban research
-*query with neural networks and deep learning instead-alter_tags-2
-tags-neural networks
-tags-deep learning
-*use construction, London tags-alter_tags-2
-tags-construction
-tags-London
+*what can you do-requestHelp-0
+*tell me about yourself-requestHelp-0
+*how can you assist me?-requestHelp-0
+*HELP-requestHelp-0
+*help-requestHelp-0
+*display functionality-requestHelp-0
