@@ -11,6 +11,7 @@
 	"path" : "./models",
 	"project" : "data-bot",
 	"language" : "en",
+	"spacy_model_name" : "en_core_web_md",
 	"num_threads": 1,
 	"max_training_processes": 1,
 	"data" : "./data/data.json",
